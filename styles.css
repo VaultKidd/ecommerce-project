@@ -411,6 +411,21 @@ footer{
 }
 
 
+/*
+
+BOOKS PAGE
+
+*/
+
+
+.books__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+
 /*SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 
 @media (max-width: 768px){
