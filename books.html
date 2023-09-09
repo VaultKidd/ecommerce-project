@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Library</title>
+    <title>Library - All Books</title>
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
@@ -19,8 +19,8 @@
         <div class="nav__container">
           <img class="logo" src="assets/Library.svg" alt="" />
           <ul class="nav__links">
-            <li><a href="#" class="nav__link">Home</a></li>
-            <li><a href="#" class="nav__link">Contact</a></li>
+            <li><a href="index.html" class="nav__link">Home</a></li>
+            <li><a href="#" class="nav__link no-cursor">Contact</a></li>
             <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
           </ul>
           <button class="btn__menu" onclick="openMenu()">
@@ -65,7 +65,9 @@
                 <option value="RATING">Best Rated</option>
               </select>
             </div>
-            <div class="books"></div>
+            <div class="books">
+              <i class="fas fa-spinner books__loading--spinner"></i>
+            </div>
           </div>
         </div>
       </section>
@@ -80,9 +82,9 @@
             </figure>
           </a>
           <div class="footer__list">
-            <a href="#" class="footer__link">Home</a>
+            <a href="index.html" class="footer__link">Home</a>
             <a class="footer__link no-cursor">About</a>
-            <a href="#features" class="footer__link">Books</a>
+            <a href="#" class="footer__link">Books</a>
             <a class="footer__link no-cursor">Contact</a>
           </div>
           <div class="footer__copyright">Copyright &copy; 2021 Library</div>
